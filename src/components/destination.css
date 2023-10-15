@@ -1,0 +1,92 @@
+.destination{
+    margin: 40px; 
+}
+.destination h1{
+    font-size: 3rem;
+    margin-left: 50px;
+}
+
+.destination p{
+    margin-left: 50px;
+}
+.first-des{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4.1rem;
+}
+.image img{
+    height: 150px;
+    width: 200px;
+}
+.des-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.des-text h2{
+    padding-bottom: 1rem;
+}
+.image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.image img{
+     width: 50%;
+     height: 350px;
+     object-fit: cover;
+     border-radius: 6px;
+     box-shadow: -1px 1px 62px -18px rgb(0, 0, 0, 0.19);
+
+}
+
+.image img:nth-child(2){ /* for secound img */
+    position: absolute;
+    top: -10%;
+    right: -10px ;
+}
+
+.first-des-reverse{
+    display: flex;
+    flex-direction:row-reverse;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 50px;
+}
+
+@media screen and (max-width:850px) {
+    .destination{
+        margin: 4rem 2rem;
+    }
+
+    .first-des{
+        display: flex;
+        flex-direction: column-reverse; 
+        margin: 2.5rem;
+    }
+    .image{
+        width: 100%;
+        margin: 1.8rem 0;
+
+    }
+
+    .des-text{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .image img{
+        height: 250px;
+    }
+    .first-des-reverse{
+        display: flex;
+        flex-direction:column-reverse;
+        margin: 2.5rem;
+    }
+}

@@ -1,0 +1,14 @@
+.service img{
+    height: 100vh;
+    width: 100%;
+}
+
+  .service h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+    background-color: rgba(93, 88, 88, 0.5); /* Red with 50% opacity */
+}

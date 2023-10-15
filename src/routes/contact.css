@@ -1,0 +1,12 @@
+.contact{
+  width: 100%;
+  height: 100vh;
+}
+
+.contactimg img{
+  width: 100%;
+  height:120vh;
+  position: absolute;
+  top: -250px;
+
+}
